@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+
+<html class="no-js" dir="rtl" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta
+      content="Premium Bootstrap 5 Landing Page Template"
+      name="description"
+    />
+    <meta
+      content="bootstrap 5, premium, marketing, multipurpose"
+      name="keywords"
+    />
+    <meta content="Coderthemes" name="author" />
+    <!-- Site Title -->
+    <title>عون</title>
+    <!-- Site favicon -->
+    <link href="images/image 5.svg" rel="shortcut icon" />
+    <!--Material Icon -->
+    <link
+      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.3.67/css/materialdesignicons.min.css"
+      integrity="sha512-nRzny9w0V2Y1/APe+iEhKAwGAc+K8QYCw4vJek3zXhdn92HtKt226zHs9id8eUq+uYJKaH2gPyuLcaG/dE5c7A=="
+      referrerpolicy="no-referrer"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Tajawal:wght@200;300;400;500;700;800;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <!-- <link href="https://arabyai-webpages.s3.me-south-1.amazonaws.com/template_website/araby_ai_template/css/bootstrap.min.css" rel="stylesheet" type="text/css" /> -->
+    <link
+      href="https://arabyai-webpages.s3.me-south-1.amazonaws.com/template_website/araby_ai_template/css/animate.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://arabyai-webpages.s3.me-south-1.amazonaws.com/template_website/testing_template/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link class="style" href="css/style.css" rel="stylesheet" />
+    <!-- <link class="style" href="css/style_Orange.css" rel="stylesheet" type="text/css" /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/vuetify@2.6.14/dist/vuetify.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body,
+      p,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      a,
+      button {
+        font-family: "Noto Kufi Arabic";
+      }
+      body {
+        overflow-x: hidden;
+      }
+      /* Add other CSS styles here */
+      .contact_details {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+      }
+
+      @media (min-width: 768px) {
+        .contact_details {
+          flex-direction: row;
+        }
+      }
+      .section-title .sub-title::before {
+        right: 2px;
+      }
+      .faild {
+        display: flex;
+        flex-direction: column;
+      }
+      .v-carousel-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body data-bs-offset="60" data-bs-spy="scroll" data-bs-target=".navbar">
+    <!--Navbar Start-->
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbar-custom sticky-dark"
+      id="navbar-sticky"
+    >
+      <div class="container">
+        <!-- LOGO -->
+        <a
+          class="logo text-uppercase"
+          href="#home"
+          style="
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            align-items: center;
+          "
+        >
+          <img alt="" src="images/image 5.svg" width="50px" />
+        </a>
+        <h3 class="charity-name">عون</h3>
+        <button
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="navbar-toggler"
+          data-bs-target="#navbarCollapse"
+          data-bs-toggle="collapse"
+          type="button"
+        >
+          <i class="mdi mdi-menu"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul
+            class="navbar-nav navbar-center"
+            id="mySidenav"
+            style="margin-right: auto"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="#home">الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">كيف تعمل عون</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">المزايا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">عرض نموذج</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">تواصل معنا</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- home-agency start -->
+    <section
+      class="hero-agency"
+      id="home"
+      style="
+        background-image: url('data:image/svg+xml;utf8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%20%3C%21--%20Generator%3A%20Adobe%20Illustrator%2026.3.1%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%20%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%20viewBox%3D%220%200%201837.6%20825.8%22%20style%3D%22enable-background%3Anew%200%200%201837.6%20825.8%3B%22%20xml%3Aspace%3D%22preserve%22%3E%20%3Cstyle%20type%3D%22text/css%22%3E%20.st0%7Bfill%3Aurl%28%23SVGID_1_%29%3B%7D%20.st1%7Bfill%3Anone%3Bstroke%3A%2301C1FF40%3Bstroke-width%3A6%3Bstroke-miterlimit%3A10%3B%7D%20.st2%7Bfill%3A%2301C1FF40%3B%7D%20.st3%7Bfill%3Anone%3Bstroke%3A%2301C1FF40%3Bstroke-width%3A3.2%3Bstroke-miterlimit%3A10%3B%7D%20%3C/style%3E%20%3Cg%20id%3D%22Layer_2_00000053544470457071224840000006208577058981760911_%22%3E%20%3Cg%20id%3D%22Layer_7%22%3E%20%3Cg%20id%3D%22Layer_8%22%3E%20%3ClinearGradient%20id%3D%22SVGID_1_%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%221194.389%22%20y1%3D%22469.8773%22%20x2%3D%221876.3309%22%20y2%3D%22718.0839%22%20gradientTransform%3D%22matrix%281%200%200%20-1%200%20828%29%22%3E%20%3Cstop%20%20offset%3D%220.2633%22%20style%3D%22stop-color%3A%23FFFFFF%22/%3E%20%3Cstop%20%20offset%3D%220.999%22%20style%3D%22stop-color%3A%23999999%22/%3E%20%3C/linearGradient%3E%20%3Cpath%20class%3D%22st0%22%20d%3D%22M1219.4%2C0c0%2C0-5.5%2C18.7%2C7.3%2C27.8s100%2C62.7%2C60.9%2C88.6c-39.1%2C25.9-113.6%2C75.9-120%2C137.7%20c-6.4%2C61.8%2C33.9%2C81.2%2C70.9%2C90.3c37%2C9.1%2C68.5%2C3.9%2C100.3%2C36.7s42.4%2C70%2C59.1%2C117.6s48.8%2C61.5%2C77.3%2C56.4c28.5-5.2%2C53.6-8.2%2C84.9-62.1%20c31.2-53.9%2C58.8-74.2%2C98.8-66.7c40%2C7.6%2C52.1%2C40%2C178.8%2C46.7l-1.3-278.8c0%2C0-39.9-27.6-46.7-46.9c-18-50.8%2C46.7-115.6%2C46.7-115.6V0%20H1219.4z%22/%3E%20%3C/g%3E%20%3Ccircle%20class%3D%22st1%22%20cx%3D%22714.7%22%20cy%3D%22258.5%22%20r%3D%2217.7%22/%3E%20%3Cpath%20class%3D%22st2%22%20d%3D%22M1243.9%2C203.1l75.7-45.3l10.8-6.4c5.5-3.3%2C0.5-12-5-8.6l-75.7%2C45.3l-10.7%2C6.4%20C1233.3%2C197.8%2C1238.4%2C206.5%2C1243.9%2C203.1L1243.9%2C203.1z%22/%3E%20%3Cpath%20class%3D%22st2%22%20d%3D%22M1535.1%2C772.2l-58.6-56.5c-4.6-4.5-11.7%2C2.6-7.1%2C7.1l58.6%2C56.5C1532.7%2C783.7%2C1539.8%2C776.6%2C1535.1%2C772.2z%22/%3E%20%3Ccircle%20class%3D%22st1%22%20cx%3D%221480.7%22%20cy%3D%22307.2%22%20r%3D%2257.2%22/%3E%20%3Ccircle%20class%3D%22st1%22%20cx%3D%221754.1%22%20cy%3D%22319.4%22%20r%3D%2247.6%22/%3E%20%3Cpolygon%20class%3D%22st3%22%20points%3D%2251.6%2C675.8%2016.9%2C714.2%202.3%2C660.3%20%09%09%22/%3E%20%3C/g%3E%20%3C/g%3E%20%3C/svg%3E');
+      "
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6" style="margin-top: 100px">
+            <h1 class="hero-title fw-bold mb-4">منصة عون</h1>
+            <p class="text-muted mb-5 fs-18">
+              منصة عون هي نظام مبتكر لإدارة حالات الجمعيات الخيرية، مصمم خصيصاً
+              لتلبية احتياجات الجمعيات في تنظيم وإدارة البيانات بكفاءة. توفر
+              المنصة واجهة استخدام سهلة تتيح رفع الحالات عبر ملفات إكسل أو فورم
+              مخصص، مع إمكانية إضافة جميع التفاصيل الشخصية والمالية والاحتياجات
+              بدقة. كما تتيح المنصة معرفة الحالات المشتركة بين الجمعيات لتجنب
+              تكرار الجهود، وتوفر أدوات فلترة وبحث متقدمة لتحسين كفاءة العمل.
+              بالإضافة إلى ذلك، يمكنك إضافة مساعدين بصلاحيات محددة، مما يسهل
+              توزيع المهام بفعالية.
+            </p>
+            <div class="d-flex align-items-center mb-4 mb-lg-0">
+              <a
+                class="btn btn-gradient-success rounded-pill me-4"
+                href="#contact"
+                >تواصل معنا<i class="mdi mdi-chevron-right ms-1"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img alt="" class="deal" src="images/Business deal-rafiki.svg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home-agency end -->
+    <!-- About start -->
+    <section
+      class="hero-6 bg-dark d-flex align-items-center position-relative"
+      id="about"
+    >
+      <!-- <h1 class="hero-title d-none d-xl-block text-uppercase">We Grow</h1> -->
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-between">
+          <div class="col-lg-5 col-md-5">
+            <div class="hero-content mb-lg-0 mb-md-5 mb-5 pb-lg-0 pb-md-5">
+              <!--<h1 class="text-light font-weight-medium">We Grow</h1>-->
+              <h1 class="text-light font-weight-medium mb-4 pb-1">
+                كيف تعمل عون
+              </h1>
+              <p class="hero-6-sub-title mb-4 pb-2" style="font-size: 16px">
+                منصة عون هي الحل الأمثل لإدارة حالات الجمعيات الخيرية بكفاءة
+                وسهولة. تم تصميمها لتلبية احتياجات الجمعيات في تنظيم وإدارة
+                البيانات بشكل متكامل وسلس. من خلال واجهة استخدام بسيطة وسهلة،
+                تتيح المنصة رفع الحالات عبر ملفات إكسل منسقة أو فورم مخصص داخل
+                الموقع، مما يجعل عملية إدارة البيانات أكثر فعالية ودقة.
+              </p>
+              <a class="btn btn-primary" href="#contact">انضم الآن</a>
+            </div>
+          </div>
+          <div class="col-lg-6 offset-lg-1 col-md-7">
+            <img
+              alt="hero"
+              class="img-fluid rounded"
+              src="data:image/svg+xml;utf8,%3Csvg%20id%3D%22bac3cfc7-b61b-48ce-8441-8100e40ddaa6%22%20data-name%3D%22Layer%201%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22797.5%22%20height%3D%22834.5%22%20viewBox%3D%220%200%20797.5%20834.5%22%3E%3Ctitle%3Evoid%3C/title%3E%3Cellipse%20cx%3D%22308.5%22%20cy%3D%22780%22%20rx%3D%22308.5%22%20ry%3D%2254.5%22%20fill%3D%22%233f3d56%22/%3E%3Ccircle%20cx%3D%22496%22%20cy%3D%22301.5%22%20r%3D%22301.5%22%20fill%3D%22%233f3d56%22/%3E%3Ccircle%20cx%3D%22496%22%20cy%3D%22301.5%22%20r%3D%22248.89787%22%20opacity%3D%220.05%22/%3E%3Ccircle%20cx%3D%22496%22%20cy%3D%22301.5%22%20r%3D%22203.99362%22%20opacity%3D%220.05%22/%3E%3Ccircle%20cx%3D%22496%22%20cy%3D%22301.5%22%20r%3D%22146.25957%22%20opacity%3D%220.05%22/%3E%3Cpath%20d%3D%22M398.42029%2C361.23224s-23.70394%2C66.72221-13.16886%2C90.42615%2C27.21564%2C46.52995%2C27.21564%2C46.52995S406.3216%2C365.62186%2C398.42029%2C361.23224Z%22%20transform%3D%22translate%28-201.25%20-32.75%29%22%20fill%3D%22%23d0cde1%22/%3E%3Cpath%20d%3D%22M398.42029%2C361.23224s-23.70394%2C66.72221-13.16886%2C90.42615%2C27.21564%2C46.52995%2C27.21564%2C46.52995S406.3216%2C365.62186%2C398.42029%2C361.23224Z%22%20transform%3D%22translate%28-201.25%20-32.75%29%22%20opacity%3D%220.1%22/%3E%3Cpath%20d%3D%22M415.10084%2C515.74682s-1.75585%2C16.68055-2.63377%2C17.55847.87792%2C2.63377%2C0%2C5.26754-1.75585%2C6.14547%2C0%2C7.02339-9.65716%2C78.13521-9.65716%2C78.13521-28.09356%2C36.8728-16.68055%2C94.81576l3.51169%2C58.82089s27.21564%2C1.75585%2C27.21564-7.90132c0%2C0-1.75585-11.413-1.75585-16.68055s4.38962-5.26754%2C1.75585-7.90131-2.63377-4.38962-2.63377-4.38962%2C4.38961-3.51169%2C3.51169-4.38962%2C7.90131-63.2105%2C7.90131-63.2105%2C9.65716-9.65716%2C9.65716-14.92471v-5.26754s4.38962-11.413%2C4.38962-12.29093%2C23.70394-54.43127%2C23.70394-54.43127l9.65716%2C38.62864%2C10.53509%2C55.3092s5.26754%2C50.04165%2C15.80262%2C69.356c0%2C0%2C18.4364%2C63.21051%2C18.4364%2C61.45466s30.72733-6.14547%2C29.84941-14.04678-18.4364-118.5197-18.4364-118.5197L533.62054%2C513.991Z%22%20transform%3D%22translate%28-201.25%20-32.75%29%22%20fill%3D%22%232f2e41%22/%3E%3Cpath%20d%3D%22M391.3969%2C772.97846s-23.70394%2C46.53-7.90131%2C48.2858%2C21.94809%2C1.75585%2C28.97148-5.26754c3.83968-3.83968%2C11.61528-8.99134%2C17.87566-12.87285a23.117%2C23.117%2C0%2C0%2C0%2C10.96893-21.98175c-.463-4.29531-2.06792-7.83444-6.01858-8.16366-10.53508-.87792-22.826-10.53508-22.826-10.53508Z%22%20transform%3D%22translate%28-201.25%20-32.75%29%22%20fill%3D%22%232f2e41%22/%3E%3Cpath%20d%3D%22M522.20753%2C807.21748s-23.70394%2C46.53-7.90131%2C48.28581%2C21.94809%2C1.75584%2C28.97148-5.26754c3.83968-3.83969%2C11.61528-8.99134%2C17.87566-12.87285a23.117%2C23.117%2C0%2C0%2C0%2C10.96893-21.98175c-.463-4.29531-2.06792-7.83444-6.01857-8.16367-10.53509-.87792-22.826-10.53508-22.826-10.53508Z%22%20transform%3D%22translate%28-201.25%20-32.75%29%22%20fill%3D%22%232f2e41%22/%3E%3Ccircle%20cx%3D%22295.90488%22%20cy%3D%22215.43252%22%20r%3D%2236.90462%22%20fill%3D%22%23ffb8b8%22/%3E%3Cpath%20d%3D%22M473.43048%2C260.30832S447.07%2C308.81154%2C444.9612%2C308.81154%2C492.41%2C324.62781%2C492.41%2C324.62781s13.70743-46.39439%2C15.81626-50.61206Z%22%20transform%3D%22translate%28-201.25%20-32.75%29%22%20fill%3D%22%23ffb8b8%22/%3E%3Cpath%20d%3D%22M513.86726%2C313.3854s-52.67543-28.97148-57.943-28.09356-61.45466%2C50.04166-60.57673%2C70.2339%2C7.90131%2C53.55335%2C7.90131%2C53.55335%2C2.63377%2C93.05991%2C7.90131%2C93.93783-.87792%2C16.68055.87793%2C16.68055%2C122.90931%2C0%2C123.78724-2.63377S513.86726%2C313.3854%2C513.86726%2C313.3854Z%22%20transform%3D%22translate%28-201.25%20-32.75%29%22%20fill%3D%22%23d0cde1%22/%3E%3Cpath%20d%3D%22M543.2777%2C521.89228s16.68055%2C50.91958%2C2.63377%2C49.16373-20.19224-43.89619-20.19224-43.89619Z%22%20transform%3D%22translate%28-201.25%20-32.75%29%22%20fill%3D%22%23ffb8b8%22/%3E%3Cpath%20d%3D%22M498.50359%2C310.31267s-32.48318%2C7.02339-27.21563%2C50.91957%2C14.9247%2C87.79237%2C14.9247%2C87.79237l32.48318%2C71.11182%2C3.51169%2C13.16886%2C23.70394-6.14547L528.353%2C425.32067s-6.14547-108.86253-14.04678-112.37423A33.99966%2C33.99966%2C0%2C0%2C0%2C498.50359%2C310.31267Z%22%20transform%3D%22translate%28-201.25%20-32.75%29%22%20fill%3D%22%23d0cde1%22/%3E%3Cpolygon%20points%3D%22277.5%20414.958%20317.885%20486.947%20283.86%20411.09%20277.5%20414.958%22%20opacity%3D%220.1%22/%3E%3Cpath%20d%3D%22M533.896%2C237.31585l.122-2.82012%2C5.6101%2C1.39632a6.26971%2C6.26971%2C0%2C0%2C0-2.5138-4.61513l5.97581-.33413a64.47667%2C64.47667%2C0%2C0%2C0-43.1245-26.65136c-12.92583-1.87346-27.31837.83756-36.182%2C10.43045-4.29926%2C4.653-7.00067%2C10.57018-8.92232%2C16.60685-3.53926%2C11.11821-4.26038%2C24.3719%2C3.11964%2C33.40938%2C7.5006%2C9.18513%2C20.602%2C10.98439%2C32.40592%2C12.12114%2C4.15328.4%2C8.50581.77216%2C12.35457-.83928a29.721%2C29.721%2C0%2C0%2C0-1.6539-13.03688%2C8.68665%2C8.68665%2C0%2C0%2C1-.87879-4.15246c.5247-3.51164%2C5.20884-4.39635%2C8.72762-3.9219s7.74984%2C1.20031%2C10.062-1.49432c1.59261-1.85609%2C1.49867-4.559%2C1.70967-6.99575C521.28248%2C239.785%2C533.83587%2C238.70653%2C533.896%2C237.31585Z%22%20transform%3D%22translate%28-201.25%20-32.75%29%22%20fill%3D%22%232f2e41%22/%3E%3Ccircle%20cx%3D%22559%22%20cy%3D%22744.5%22%20r%3D%2243%22%20fill%3D%22%2301C1FF%22/%3E%3Ccircle%20cx%3D%2254%22%20cy%3D%22729.5%22%20r%3D%2243%22%20fill%3D%22%2301C1FF%22/%3E%3Ccircle%20cx%3D%2254%22%20cy%3D%22672.5%22%20r%3D%2231%22%20fill%3D%22%2301C1FF%22/%3E%3Ccircle%20cx%3D%2254%22%20cy%3D%22624.5%22%20r%3D%2222%22%20fill%3D%22%2301C1FF%22/%3E%3C/svg%3E"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About end -->
+    <!-- Services start -->
+    <section class="powerful-tools-area" id="features">
+      <div class="powerful-shape shape-1"></div>
+      <div class="powerful-shape shape-2">
+        <img
+          alt=""
+          class="spinner"
+          src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20viewBox%3D%220%200%201855.6%201132.14%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%2C.cls-3%7Bfill%3Anone%3B%7D.cls-2%7Bclip-path%3Aurl%28%23clip-path%29%3B%7D.cls-3%7Bstroke%3A%2301C1FF%3Bstroke-miterlimit%3A10%3Bstroke-width%3A6px%3B%7D%3C/style%3E%3CclipPath%20id%3D%22clip-path%22%20transform%3D%22translate%28503.78%2095.84%29%22%3E%3Cpath%20class%3D%22cls-1%22%20d%3D%22M865.06%2C283.65s-25.3-8.93-100.9%2C12.67-233.55%2C105.3-294.3%2C33.75S401%2C154.57%2C361.86%2C88.42%2C287.61-4.73%2C189.06.67%2C0%2C104.62%2C0%2C199.12%2C6.81%2C343.57%2C144.51%2C408.37s62.1%2C182.25%2C20.25%2C216S19%2C731%2C35.16%2C830.92s98.55%2C187.65%2C224.1%2C145.8%2C155.19-148.5%2C174.79-213.3%2C103.31-101.25%2C207.26-68.85S878%2C740.23%2C951.81%2C673c82.35-75%2C79.19-160.71%2C53-255C976.74%2C317.32%2C898.56%2C287.77%2C865.06%2C283.65Z%22/%3E%3C/clipPath%3E%3C/defs%3E%3Cg%20id%3D%22Layer_2%22%20data-name%3D%22Layer%202%22%3E%3Cg%20id%3D%22Layer_3%22%20data-name%3D%22Layer%203%22%3E%3Cg%20class%3D%22cls-2%22%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22531.35%22%20y1%3D%221085.25%22%20x2%3D%221263.43%22%20y2%3D%22346.71%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22549.36%22%20y1%3D%221093.81%22%20x2%3D%221281.44%22%20y2%3D%22355.27%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22562.77%22%20y1%3D%221103.16%22%20x2%3D%221294.85%22%20y2%3D%22364.63%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22603.54%22%20y1%3D%221084.85%22%20x2%3D%221335.62%22%20y2%3D%22346.31%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22621.55%22%20y1%3D%221093.41%22%20x2%3D%221353.63%22%20y2%3D%22354.87%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22634.96%22%20y1%3D%221102.77%22%20x2%3D%221367.04%22%20y2%3D%22364.23%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22659.69%22%20y1%3D%221103.16%22%20x2%3D%221391.77%22%20y2%3D%22364.63%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22677.7%22%20y1%3D%221111.72%22%20x2%3D%221409.78%22%20y2%3D%22373.18%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22691.1%22%20y1%3D%221121.08%22%20x2%3D%221423.18%22%20y2%3D%22382.54%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22724.48%22%20y1%3D%221112.12%22%20x2%3D%221456.56%22%20y2%3D%22373.58%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22742.49%22%20y1%3D%221120.68%22%20x2%3D%221474.57%22%20y2%3D%22382.14%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22755.9%22%20y1%3D%221130.03%22%20x2%3D%221487.97%22%20y2%3D%22391.49%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22881.69%22%20y1%3D%221020.5%22%20x2%3D%221613.77%22%20y2%3D%22281.96%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22899.7%22%20y1%3D%221029.06%22%20x2%3D%221631.78%22%20y2%3D%22290.52%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22913.1%22%20y1%3D%221038.42%22%20x2%3D%221645.18%22%20y2%3D%22299.88%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22943.42%22%20y1%3D%221029.46%22%20x2%3D%221675.5%22%20y2%3D%22290.92%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22961.44%22%20y1%3D%221038.02%22%20x2%3D%221693.51%22%20y2%3D%22299.48%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22974.84%22%20y1%3D%221047.37%22%20x2%3D%221706.92%22%20y2%3D%22308.83%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22987.59%22%20y1%3D%221065.19%22%20x2%3D%221719.67%22%20y2%3D%22326.65%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%221017.92%22%20y1%3D%221056.24%22%20x2%3D%221750%22%20y2%3D%22317.7%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%221035.93%22%20y1%3D%221064.79%22%20x2%3D%221768.01%22%20y2%3D%22326.25%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%221049.33%22%20y1%3D%221074.15%22%20x2%3D%221781.41%22%20y2%3D%22335.61%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%221059.65%22%20y1%3D%221085.25%22%20x2%3D%221791.73%22%20y2%3D%22346.71%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%221089.97%22%20y1%3D%221076.3%22%20x2%3D%221822.05%22%20y2%3D%22337.76%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%221107.98%22%20y1%3D%221084.85%22%20x2%3D%221840.06%22%20y2%3D%22346.31%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%221121.39%22%20y1%3D%221094.21%22%20x2%3D%221853.47%22%20y2%3D%22355.67%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22139.84%22%20y1%3D%22843.56%22%20x2%3D%22871.92%22%20y2%3D%22105.02%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22157.85%22%20y1%3D%22852.12%22%20x2%3D%22889.93%22%20y2%3D%22113.58%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22171.25%22%20y1%3D%22861.47%22%20x2%3D%22903.33%22%20y2%3D%22122.93%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22212.03%22%20y1%3D%22843.16%22%20x2%3D%22944.11%22%20y2%3D%22104.62%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22230.04%22%20y1%3D%22851.72%22%20x2%3D%22962.12%22%20y2%3D%22113.18%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22243.44%22%20y1%3D%22861.07%22%20x2%3D%22975.52%22%20y2%3D%22122.53%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22268.17%22%20y1%3D%22861.47%22%20x2%3D%221000.25%22%20y2%3D%22122.93%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22286.18%22%20y1%3D%22870.03%22%20x2%3D%221018.26%22%20y2%3D%22131.49%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22299.59%22%20y1%3D%22879.38%22%20x2%3D%221031.67%22%20y2%3D%22140.84%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%2224.56%22%20y1%3D%22741.05%22%20x2%3D%22756.64%22%20y2%3D%222.51%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%222.13%22%20y1%3D%22742.45%22%20x2%3D%22734.21%22%20y2%3D%223.91%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%2242.57%22%20y1%3D%22749.61%22%20x2%3D%22774.65%22%20y2%3D%2211.07%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%2255.98%22%20y1%3D%22758.96%22%20x2%3D%22788.06%22%20y2%3D%2220.42%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%2296.75%22%20y1%3D%22740.65%22%20x2%3D%22828.83%22%20y2%3D%222.11%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22114.76%22%20y1%3D%22749.21%22%20x2%3D%22846.84%22%20y2%3D%2210.67%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22128.17%22%20y1%3D%22758.56%22%20x2%3D%22860.25%22%20y2%3D%2220.02%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22152.89%22%20y1%3D%22758.96%22%20x2%3D%22884.97%22%20y2%3D%2220.42%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22170.9%22%20y1%3D%22767.52%22%20x2%3D%22902.98%22%20y2%3D%2228.98%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22184.31%22%20y1%3D%22776.87%22%20x2%3D%22916.39%22%20y2%3D%2238.34%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22332.96%22%20y1%3D%22870.43%22%20x2%3D%221065.04%22%20y2%3D%22131.89%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22350.98%22%20y1%3D%22878.98%22%20x2%3D%221083.06%22%20y2%3D%22140.44%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22364.38%22%20y1%3D%22888.34%22%20x2%3D%221096.46%22%20y2%3D%22149.8%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22310.83%22%20y1%3D%22965.74%22%20x2%3D%221042.91%22%20y2%3D%22227.2%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22328.84%22%20y1%3D%22974.3%22%20x2%3D%221060.92%22%20y2%3D%22235.76%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22342.24%22%20y1%3D%22983.65%22%20x2%3D%221074.32%22%20y2%3D%22245.11%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22372.57%22%20y1%3D%22974.69%22%20x2%3D%221104.65%22%20y2%3D%22236.16%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22390.58%22%20y1%3D%22983.25%22%20x2%3D%221122.66%22%20y2%3D%22244.71%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22403.98%22%20y1%3D%22992.61%22%20x2%3D%221136.06%22%20y2%3D%22254.07%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22416.74%22%20y1%3D%221010.43%22%20x2%3D%221148.82%22%20y2%3D%22271.89%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22447.06%22%20y1%3D%221001.47%22%20x2%3D%221179.14%22%20y2%3D%22262.93%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22465.07%22%20y1%3D%221010.03%22%20x2%3D%221197.15%22%20y2%3D%22271.49%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22478.47%22%20y1%3D%221019.38%22%20x2%3D%221210.55%22%20y2%3D%22280.85%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22488.79%22%20y1%3D%221030.49%22%20x2%3D%221220.87%22%20y2%3D%22291.95%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22519.12%22%20y1%3D%221021.53%22%20x2%3D%221251.2%22%20y2%3D%22282.99%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22537.13%22%20y1%3D%221030.09%22%20x2%3D%221269.21%22%20y2%3D%22291.55%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22550.53%22%20y1%3D%221039.44%22%20x2%3D%221282.61%22%20y2%3D%22300.9%22/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E"
+        />
+      </div>
+      <div class="container">
+        <div class="powerful-tools-wrapper">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="powerful-tools-content mt-50">
+                <div class="section-title">
+                  <p class="sub-title">المزايا</p>
+                  <h2 class="title" id="feat_title1">
+                    واجهة استخدام سهلة ومرنة
+                  </h2>
+                </div>
+                <div class="powerful-content-wrapper">
+                  <p id="feat_desc1" style="font-size: 16px">
+                    تم تصميم واجهة منصة عون لتكون بديهية وسهلة الاستخدام لجميع
+                    الأفراد، مما يتيح لأعضاء الجمعيات التعامل مع المنصة بكل يسر.
+                    توفر الواجهة أدوات مرنة لرفع الحالات سواء عبر ملفات إكسل أو
+                    فورم داخل الموقع، مما يوفر الوقت والجهد في إدخال البيانات.
+                  </p>
+                  <!-- <ul class="content-list">
+                    <li><i class="fas fa-check"></i> Refresing to get such a personal touch.</li>
+                    <li><i class="fas fa-check"></i> Duis aute irure dolor in reprehenderit in voluptate.</li>
+                    <li><i class="fas fa-check"></i> Velit esse cillum dolore eu fugiat nulla pariatur.</li>
+                  </ul> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div
+                class="powerful-image mt-50 wow fadeInLeftBig"
+                data-wow-delay="0.3s"
+                data-wow-duration="1s"
+              >
+                <div class="image">
+                  <img
+                    style="
+                      margin-left: 200px;
+                      transform: rotate(15deg);
+                      width: 1100px;
+                    "
+                    alt=""
+                    class="feature1 online"
+                    src="images/Online connection-rafiki.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--====== Powerful Tools Ends ======-->
+    <!-- Services start 2-->
+    <section class="powerful-tools-area" id="features_1">
+      <div class="powerful-shape shape-1"></div>
+      <div class="powerful-shape shape-2">
+        <img
+          alt=""
+          class="spinner"
+          src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20viewBox%3D%220%200%201855.6%201132.14%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%2C.cls-3%7Bfill%3Anone%3B%7D.cls-2%7Bclip-path%3Aurl%28%23clip-path%29%3B%7D.cls-3%7Bstroke%3A%2301C1FF%3Bstroke-miterlimit%3A10%3Bstroke-width%3A6px%3B%7D%3C/style%3E%3CclipPath%20id%3D%22clip-path%22%20transform%3D%22translate%28503.78%2095.84%29%22%3E%3Cpath%20class%3D%22cls-1%22%20d%3D%22M865.06%2C283.65s-25.3-8.93-100.9%2C12.67-233.55%2C105.3-294.3%2C33.75S401%2C154.57%2C361.86%2C88.42%2C287.61-4.73%2C189.06.67%2C0%2C104.62%2C0%2C199.12%2C6.81%2C343.57%2C144.51%2C408.37s62.1%2C182.25%2C20.25%2C216S19%2C731%2C35.16%2C830.92s98.55%2C187.65%2C224.1%2C145.8%2C155.19-148.5%2C174.79-213.3%2C103.31-101.25%2C207.26-68.85S878%2C740.23%2C951.81%2C673c82.35-75%2C79.19-160.71%2C53-255C976.74%2C317.32%2C898.56%2C287.77%2C865.06%2C283.65Z%22/%3E%3C/clipPath%3E%3C/defs%3E%3Cg%20id%3D%22Layer_2%22%20data-name%3D%22Layer%202%22%3E%3Cg%20id%3D%22Layer_3%22%20data-name%3D%22Layer%203%22%3E%3Cg%20class%3D%22cls-2%22%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22531.35%22%20y1%3D%221085.25%22%20x2%3D%221263.43%22%20y2%3D%22346.71%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22549.36%22%20y1%3D%221093.81%22%20x2%3D%221281.44%22%20y2%3D%22355.27%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22562.77%22%20y1%3D%221103.16%22%20x2%3D%221294.85%22%20y2%3D%22364.63%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22603.54%22%20y1%3D%221084.85%22%20x2%3D%221335.62%22%20y2%3D%22346.31%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22621.55%22%20y1%3D%221093.41%22%20x2%3D%221353.63%22%20y2%3D%22354.87%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22634.96%22%20y1%3D%221102.77%22%20x2%3D%221367.04%22%20y2%3D%22364.23%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22659.69%22%20y1%3D%221103.16%22%20x2%3D%221391.77%22%20y2%3D%22364.63%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22677.7%22%20y1%3D%221111.72%22%20x2%3D%221409.78%22%20y2%3D%22373.18%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22691.1%22%20y1%3D%221121.08%22%20x2%3D%221423.18%22%20y2%3D%22382.54%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22724.48%22%20y1%3D%221112.12%22%20x2%3D%221456.56%22%20y2%3D%22373.58%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22742.49%22%20y1%3D%221120.68%22%20x2%3D%221474.57%22%20y2%3D%22382.14%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22755.9%22%20y1%3D%221130.03%22%20x2%3D%221487.97%22%20y2%3D%22391.49%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22881.69%22%20y1%3D%221020.5%22%20x2%3D%221613.77%22%20y2%3D%22281.96%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22899.7%22%20y1%3D%221029.06%22%20x2%3D%221631.78%22%20y2%3D%22290.52%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22913.1%22%20y1%3D%221038.42%22%20x2%3D%221645.18%22%20y2%3D%22299.88%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22943.42%22%20y1%3D%221029.46%22%20x2%3D%221675.5%22%20y2%3D%22290.92%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22961.44%22%20y1%3D%221038.02%22%20x2%3D%221693.51%22%20y2%3D%22299.48%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22974.84%22%20y1%3D%221047.37%22%20x2%3D%221706.92%22%20y2%3D%22308.83%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22987.59%22%20y1%3D%221065.19%22%20x2%3D%221719.67%22%20y2%3D%22326.65%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%221017.92%22%20y1%3D%221056.24%22%20x2%3D%221750%22%20y2%3D%22317.7%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%221035.93%22%20y1%3D%221064.79%22%20x2%3D%221768.01%22%20y2%3D%22326.25%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%221049.33%22%20y1%3D%221074.15%22%20x2%3D%221781.41%22%20y2%3D%22335.61%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%221059.65%22%20y1%3D%221085.25%22%20x2%3D%221791.73%22%20y2%3D%22346.71%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%221089.97%22%20y1%3D%221076.3%22%20x2%3D%221822.05%22%20y2%3D%22337.76%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%221107.98%22%20y1%3D%221084.85%22%20x2%3D%221840.06%22%20y2%3D%22346.31%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%221121.39%22%20y1%3D%221094.21%22%20x2%3D%221853.47%22%20y2%3D%22355.67%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22139.84%22%20y1%3D%22843.56%22%20x2%3D%22871.92%22%20y2%3D%22105.02%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22157.85%22%20y1%3D%22852.12%22%20x2%3D%22889.93%22%20y2%3D%22113.58%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22171.25%22%20y1%3D%22861.47%22%20x2%3D%22903.33%22%20y2%3D%22122.93%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22212.03%22%20y1%3D%22843.16%22%20x2%3D%22944.11%22%20y2%3D%22104.62%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22230.04%22%20y1%3D%22851.72%22%20x2%3D%22962.12%22%20y2%3D%22113.18%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22243.44%22%20y1%3D%22861.07%22%20x2%3D%22975.52%22%20y2%3D%22122.53%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22268.17%22%20y1%3D%22861.47%22%20x2%3D%221000.25%22%20y2%3D%22122.93%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22286.18%22%20y1%3D%22870.03%22%20x2%3D%221018.26%22%20y2%3D%22131.49%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22299.59%22%20y1%3D%22879.38%22%20x2%3D%221031.67%22%20y2%3D%22140.84%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%2224.56%22%20y1%3D%22741.05%22%20x2%3D%22756.64%22%20y2%3D%222.51%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%222.13%22%20y1%3D%22742.45%22%20x2%3D%22734.21%22%20y2%3D%223.91%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%2242.57%22%20y1%3D%22749.61%22%20x2%3D%22774.65%22%20y2%3D%2211.07%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%2255.98%22%20y1%3D%22758.96%22%20x2%3D%22788.06%22%20y2%3D%2220.42%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%2296.75%22%20y1%3D%22740.65%22%20x2%3D%22828.83%22%20y2%3D%222.11%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22114.76%22%20y1%3D%22749.21%22%20x2%3D%22846.84%22%20y2%3D%2210.67%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22128.17%22%20y1%3D%22758.56%22%20x2%3D%22860.25%22%20y2%3D%2220.02%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22152.89%22%20y1%3D%22758.96%22%20x2%3D%22884.97%22%20y2%3D%2220.42%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22170.9%22%20y1%3D%22767.52%22%20x2%3D%22902.98%22%20y2%3D%2228.98%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22184.31%22%20y1%3D%22776.87%22%20x2%3D%22916.39%22%20y2%3D%2238.34%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22332.96%22%20y1%3D%22870.43%22%20x2%3D%221065.04%22%20y2%3D%22131.89%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22350.98%22%20y1%3D%22878.98%22%20x2%3D%221083.06%22%20y2%3D%22140.44%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22364.38%22%20y1%3D%22888.34%22%20x2%3D%221096.46%22%20y2%3D%22149.8%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22310.83%22%20y1%3D%22965.74%22%20x2%3D%221042.91%22%20y2%3D%22227.2%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22328.84%22%20y1%3D%22974.3%22%20x2%3D%221060.92%22%20y2%3D%22235.76%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22342.24%22%20y1%3D%22983.65%22%20x2%3D%221074.32%22%20y2%3D%22245.11%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22372.57%22%20y1%3D%22974.69%22%20x2%3D%221104.65%22%20y2%3D%22236.16%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22390.58%22%20y1%3D%22983.25%22%20x2%3D%221122.66%22%20y2%3D%22244.71%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22403.98%22%20y1%3D%22992.61%22%20x2%3D%221136.06%22%20y2%3D%22254.07%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22416.74%22%20y1%3D%221010.43%22%20x2%3D%221148.82%22%20y2%3D%22271.89%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22447.06%22%20y1%3D%221001.47%22%20x2%3D%221179.14%22%20y2%3D%22262.93%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22465.07%22%20y1%3D%221010.03%22%20x2%3D%221197.15%22%20y2%3D%22271.49%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22478.47%22%20y1%3D%221019.38%22%20x2%3D%221210.55%22%20y2%3D%22280.85%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22488.79%22%20y1%3D%221030.49%22%20x2%3D%221220.87%22%20y2%3D%22291.95%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22519.12%22%20y1%3D%221021.53%22%20x2%3D%221251.2%22%20y2%3D%22282.99%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22537.13%22%20y1%3D%221030.09%22%20x2%3D%221269.21%22%20y2%3D%22291.55%22/%3E%3Cline%20class%3D%22cls-3%22%20x1%3D%22550.53%22%20y1%3D%221039.44%22%20x2%3D%221282.61%22%20y2%3D%22300.9%22/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E"
+        />
+      </div>
+      <div class="container">
+        <div class="powerful-tools-wrapper">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="powerful-tools-content mt-50">
+                <div class="section-title">
+                  <p class="sub-title">المزايا</p>
+                  <h2 class="title" id="feat_title1">
+                    إدارة شاملة ودقيقة للحالات
+                  </h2>
+                </div>
+                <div class="powerful-content-wrapper">
+                  <p id="feat_desc1" style="font-size: 16px">
+                    تمكنك منصة عون من إضافة جميع التفاصيل المتعلقة بالحالات، بما
+                    في ذلك المعلومات الشخصية، المالية، حالات الأسرة المرضية،
+                    واحتياجات الأسرة. يمكنك توثيق حالة المسكن بدقة وتفصيل، مما
+                    يوفر لك صورة شاملة ومتكاملة عن كل حالة، مما يسهل تقديم
+                    المساعدة المناسبة بشكل فعال.
+                  </p>
+                  <!-- <ul class="content-list">
+                    <li><i class="fas fa-check"></i> Refresing to get such a personal touch.</li>
+                    <li><i class="fas fa-check"></i> Duis aute irure dolor in reprehenderit in voluptate.</li>
+                    <li><i class="fas fa-check"></i> Velit esse cillum dolore eu fugiat nulla pariatur.</li>
+                  </ul> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div
+                class="powerful-image mt-50 wow fadeInLeftBig"
+                data-wow-delay="0.3s"
+                data-wow-duration="1s"
+              >
+                <div class="image">
+                  <img
+                    style="
+                      margin-left: 200px;
+                      transform: rotate(15deg);
+                      width: 1100px;
+                    "
+                    alt=""
+                    class="feature1 online"
+                    src="images/Online connection-rafiki.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--====== Powerful Tools Ends ======-->
+    <!--====== Discover Start ======-->
+    <section class="discover-area" id="discover">
+      <div class="discover-shape shape-1">
+        <!-- <img alt="" src="images/image 5.svg"/> -->
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6" style="margin-top: 100px">
+            <div class="discover-content-wrapper">
+              <div class="section-title">
+                <p class="sub-title">المزايا</p>
+                <h2 class="title" id="feat_title2">
+                  التعاون وتجنب التكرار بين الجمعيات
+                </h2>
+              </div>
+              <div class="discover-content">
+                <p id="feat_desc2" style="font-size: 16px">
+                  تتيح منصة عون إمكانية معرفة الحالات المشتركة بين جمعيتك
+                  والجمعيات الأخرى، مما يعزز التعاون ويمنع تكرار الجهود. هذا
+                  يضمن توزيع المساعدات بشكل عادل وفعال، ويعزز من تأثير الجمعية
+                  في المجتمع. بالإضافة إلى ذلك، توفر المنصة إمكانية إضافة
+                  مساعدين بصلاحيات محددة، مما يسهل توزيع المهام والمسؤوليات بشكل
+                  منظم وآمن.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="powerful-image mt-50 wow fadeInLeftBig"
+              data-wow-delay="0.3s"
+              data-wow-duration="1s"
+            >
+              <div class="image">
+                <img
+                  alt=""
+                  class="feature2 office"
+                  src="images/Office management-rafiki.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--====== Everything Start ======-->
+    <section
+      class="everything-area"
+      id="everything"
+      style="background-color: transparent"
+    >
+      <div
+        class="everything-shape shape-1 bg-primary"
+        style="opacity: 0.2"
+      ></div>
+      <div class="everything-shape shape-2"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="everything-content-wrapper mt-50">
+              <div class="section-title">
+                <p class="sub-title">المزايا</p>
+                <h2 class="title" id="feat_title3">فلترة وبحث متقدم للحالات</h2>
+              </div>
+              <div class="everything-content">
+                <ul class="everything-items">
+                  <li>
+                    <p id="feat_desc3" style="font-size: 16px">
+                      توفر منصة عون أدوات فلترة متقدمة للحالات حسب الترتيب
+                      الأبجدي، الدخل، العجز، والمطلوب تصاعدياً وتنازلياً،
+                      بالإضافة إلى إمكانية البحث السريع. هذا يسهل الوصول إلى
+                      المعلومات المطلوبة بسرعة ودقة، مما يعزز من كفاءة العمل
+                      ويسرع من عملية اتخاذ القرارات المناسبة.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="everything-image mt-50 wow fadeInLeftBig"
+              data-wow-delay="0.3s"
+              data-wow-duration="1s"
+            >
+              <div class="image">
+                <img
+                  style="width: 1100px"
+                  alt=""
+                  class="feature3"
+                  src="images/Charity-bro.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--====== Everything Ends ======-->
+    <!--service end-->
+    <!-- <div id="app"> -->
+    <!-- <v-app> -->
+    <!-- prices start -->
+    <!-- <v-container>
+           Section with head-text and three packages 
+          <div class="section-cards">
+            <h1 class="h1-text">باقات الشراء</h1>
+            <v-row>
+              <v-col
+                cols="12"
+                sm="4"
+                v-for="(pkg, index) in packages"
+                :key="index"
+              >
+                <v-card class="package-card">
+                  <v-card-title id="card-title" class="card-content"
+                    >{{ pkg.name }}</v-card-title
+                  >
+                  <v-card-subtitle class="card-content"
+                    >السعر: {{ pkg.price }}</v-card-subtitle
+                  >
+                  <v-card-subtitle class="card-content"
+                    >المدة: {{ pkg.duration }}</v-card-subtitle
+                  >
+                  <v-card-subtitle class="card-content"
+                    >الخصم: {{ pkg.discount }}</v-card-subtitle
+                  >
+                </v-card>
+              </v-col>
+            </v-row>
+          </div>
+        </v-container> -->
+    <!-- prices end -->
+    <!--Testimonils start-->
+    <!-- <v-container class="container-carousel" fluid>
+           Button to trigger the dialog 
+          <v-row
+            style="display: flex; justify-content: center; align-items: center"
+          >
+            <v-btn
+              @click="dialog = true"
+              color="primary"
+              class="mb-4 btn-comments"
+              >اضف تعليق</v-btn
+            >
+          </v-row>
+
+           Dialog containing the form 
+          <v-dialog v-model="dialog" max-width="600px">
+            <v-card>
+              <v-card-title>
+                <span class="headline">اضف تعليق</span>
+              </v-card-title>
+              <v-card-text>
+                <v-container>
+                 Form to add new item inside dialog 
+                  <v-row class="faild">
+                    <v-col cols="12" sm="12">
+                      <v-text-field
+                        v-model="newItem.name"
+                        label="اسم المستخدم"
+                        outlined
+                      ></v-text-field>
+                    </v-col>
+                    <v-col cols="12" sm="12">
+                      <v-text-field
+                        v-model="newItem.comment"
+                        label="التعليق"
+                        outlined
+                      ></v-text-field>
+                    </v-col>
+                    <v-col cols="12" sm="12">
+                      <v-rating
+                        v-model="newItem.rating"
+                        label="التقييم"
+                        color="amber"
+                        background-color="grey lighten-1"
+                        dense
+                        half-increments
+                        outlined
+                      ></v-rating>
+                    </v-col>
+                  </v-row>
+                </v-container>
+              </v-card-text>
+              <v-card-actions>
+                <v-spacer></v-spacer>
+                <v-btn
+                  color="primary"
+                  class="mb-4 btn-comments"
+                  @click="dialog = false"
+                  >الغاء</v-btn
+                >
+                <v-btn
+                  @click="addItem"
+                  color="primary"
+                  class="mb-4 mr-10 btn-comments"
+                  >اضف تعليق</v-btn
+                >
+              </v-card-actions>
+            </v-card>
+          </v-dialog>
+
+           Carousel to display items 
+          <v-carousel hide-delimiters cycle hide-controls show-arrows="false">
+            <v-carousel-item v-for="(group, i) in groupedItems" :key="i">
+              <v-row class="d-flex align-center justify-center">
+                <v-col
+                  v-for="(item, j) in group"
+                  :key="j"
+                  cols="12"
+                  sm="6"
+                  md="4"
+                >
+                  <v-card>
+                    <v-card-title class="text-center"
+                      >{{ item.name }}</v-card-title
+                    >
+                    <v-card-subtitle>{{ item.comment }}</v-card-subtitle>
+                    <v-card-text>
+                      <v-rating
+                        v-model="item.rating"
+                        color="amber"
+                        background-color="grey lighten-1"
+                        dense
+                        half-increments
+                        readonly
+                      ></v-rating>
+                    </v-card-text>
+                  </v-card>
+                </v-col>
+              </v-row>
+            </v-carousel-item>
+          </v-carousel>
+        </v-container> -->
+    <!-- </v-app> -->
+    <!-- </div> -->
+    <!--Testimonils end-->
+    <!-- Start Template -->
+    <div class="Template">
+      <div class="container">
+        <h3>عرض نموذج</h3>
+        <p class="mt-3">
+          استكشف الآن نموذج نظام عون عبر هذا الرابط واكتشف كيف يمكن لمنصتنا
+          الارتقاء بإدارة جمعيتك إلى مستوى جديد من الكفاءة!
+        </p>
+        <a href="">نموذج من منصة عون</a>
+      </div>
+    </div>
+    <!-- End Template -->
+    <!-- footer & cta start -->
+    <section class="footer bg-light mt-5" style="padding: 50px 0px 0">
+      <div class="pb-0" id="contact">
+        <!-- start container -->
+        <div class="container" style="padding-bottom: 40px">
+          <div class="contact-item">
+            <div class="row align-items-center">
+              <!-- <div class="col-lg-5"> -->
+              <div class="contact-info">
+                <div class="mb-4">
+                  <h2>لنتواصل</h2>
+                  <p class="text-muted mb-0 mt-3">
+                    منصة عون هي الشريك المثالي لكل جمعية تسعى لتحسين نظامها
+                    الإداري وتقديم أفضل الخدمات لمستفيديها. انضم إلى منصة عون
+                    اليوم واستفد من التكنولوجيا المتقدمة لخدمة مجتمعك بفعالية
+                    وكفاءة.
+                  </p>
+                </div>
+                <hr />
+                <div class="contact_details">
+                  <!-- <div
+                    class="info-content"
+                    style="display: flex; align-items: center; gap: 5px"
+                  >
+                    <i class="mdi mdi-home-outline fs-24 text-primary"></i>
+                    <h5>العنوان :</h5>
+                    <div class="d-flex">
+                      <div class="icon"></div>
+                      <div class="icon-content ms-3">
+                        <p class="mb-0 fs-15" id="address">
+                          مصر - المقطم - الحي الثاني
+                        </p>
+                      </div>
+                    </div>
+                  </div> -->
+                  <div
+                    class="info-content"
+                    style="display: flex; align-items: center; gap: 5px"
+                  >
+                    <i class="mdi mdi-phone-outline fs-24 text-primary"></i>
+                    <h6>رقم الهاتف :</h6>
+                    <div class="d-flex">
+                      <div class="icon"></div>
+                      <div class="icon-content ms-3">
+                        <p class="mb-0 fs-15" id="email">01010350080</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="info-content">
+                    <h6>رقم الواتس :</h6>
+                    <div class="d-flex mt-2">
+                      <div class="icon">
+                        <i class="mdi mdi-phone-outline fs-24 text-primary"></i>
+                      </div>
+                      <div class="icon-content ms-3">
+                        <p
+                          style="margin: 5px 5px 0 0"
+                          class="mb-0 fs-15"
+                          id="mob_no"
+                        >
+                          1555555555555
+                        </p>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+              <!-- </div> -->
+            </div>
+          </div>
+        </div>
+        <!-- end container -->
+      </div>
+
+      <div
+        class="copyright"
+        style="
+          background: #0088ff;
+          color: #fff;
+          font-size: 14px;
+          text-align: center;
+          padding: 10px;
+          font-weight: bold;
+        "
+      >
+        جميع الحقوق محفوظة ©
+        <a
+          href="https://salem-team.com"
+          style="
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+            font-weight: bold;
+          "
+          >سالم تيم</a
+        >
+        2024
+      </div>
+    </section>
+    <!-- اااااااانننننن -->
+  </body>
+  <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vuetify@2.6.14/dist/vuetify.min.js"></script> -->
+  <!-- <script>
+    new Vue({
+      el: "#app",
+      vuetify: new Vuetify(),
+      data: {
+        dialog: false,
+        newItem: {
+          name: "",
+          comment: "",
+          rating: 0,
+        },
+        // items: [
+        //   { name: "Item 1", comment: "Comment 1", rating: 4.5 },
+        //   { name: "Item 2", comment: "Comment 2", rating: 3.5 },
+        //   { name: "Item 3", comment: "Comment 3", rating: 5 },
+        //   { name: "Item 4", comment: "Comment 4", rating: 2.5 },
+        //   { name: "Item 5", comment: "Comment 5", rating: 4 },
+        //   { name: "Item 6", comment: "Comment 6", rating: 3 },
+        // ],
+        // packages: [
+        //   { name: "باقة 1", price: "1500LE", duration: "شهر", discount: "10%" },
+        //   {
+        //     name: "باقة 2",
+        //     price: "12000LE",
+        //     duration: "عام",
+        //     discount: "15%",
+        //   },
+        //   {
+        //     name: "باقة 3",
+        //     price: "35000LE",
+        //     duration: "مدي الحياة",
+        //     discount: "20%",
+        //   },
+        // ],
+      },
+      computed: {
+        groupedItems() {
+          const grouped = [];
+          for (let i = 0; i < this.items.length; i += 3) {
+            grouped.push(this.items.slice(i, i + 3));
+          }
+          return grouped;
+        },
+      },
+      methods: {
+        addItem() {
+          if (
+            this.newItem.name &&
+            this.newItem.comment &&
+            this.newItem.rating !== 0
+          ) {
+            this.items.push({
+              name: this.newItem.name,
+              comment: this.newItem.comment,
+              rating: this.newItem.rating,
+            });
+            // Clear input fields after adding
+            this.newItem.name = "";
+            this.newItem.comment = "";
+            this.newItem.rating = 0;
+            // Close the dialog
+            this.dialog = false;
+          }
+        },
+      },
+    });
+  </script> -->
+</html>
