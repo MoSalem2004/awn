@@ -518,7 +518,7 @@ html {
   background-image: url("../images/hero-bg.png");
   background-size: cover;
   width: 100%;
-  padding: 200px 0 40px;
+  padding: 50px 0 40px;
 }
 
 .hero-agency .hero-title-badge {
@@ -606,7 +606,7 @@ html {
 
 @media (max-width: 991.98px) {
   .hero-agency {
-    padding: 50px 0 0px;
+    padding: 20px 0 0px;
   }
 }
 
@@ -616,7 +616,6 @@ html {
   }
 }
 .hero-6 {
-  padding: 50px 0px;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -628,13 +627,13 @@ html {
 }
 
 .hero-6 .hero-content .hero-6-sub-title {
-  color: rgba(243, 246, 249, 0.5);
+  color: #343A40;
 }
 
 .hero-6 .hero-title {
   font-size: 230px;
   font-weight: 700;
-  color: rgba(232, 232, 232, 0.05);
+  color: #343A40;
   /* font-family: "poppins", sans-serif; */
   position: absolute;
   bottom: -60px;
@@ -1141,7 +1140,7 @@ p {
     -ms-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
-    margin-top: 23px;
+    width: 200px;
   }
 }
 @media (max-width: 767px) {
@@ -1161,7 +1160,7 @@ p {
     -ms-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
-    margin-top: 23px;
+    width: 150px;
   }
 }
 .navbar .navbar-nav li {
@@ -4773,4 +4772,7 @@ p {
 }
 .deal {
   width: 1100px;
+}
+.cloud {
+  transform: scaleX(-1);
 }
