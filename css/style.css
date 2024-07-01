@@ -1,4 +1,3 @@
-
 :root {
   --primary-color: #1c9ce1;
   --primary-dark: #1c82e1;
@@ -627,13 +626,13 @@ html {
 }
 
 .hero-6 .hero-content .hero-6-sub-title {
-  color: #343A40;
+  color: #343a40;
 }
 
 .hero-6 .hero-title {
   font-size: 230px;
   font-weight: 700;
-  color: #343A40;
+  color: #343a40;
   /* font-family: "poppins", sans-serif; */
   position: absolute;
   bottom: -60px;
@@ -4775,4 +4774,46 @@ p {
 }
 .cloud {
   transform: scaleX(-1);
+}
+.custom-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.custom-section img {
+  max-width: 100%;
+  height: auto;
+}
+.text-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+.image-container {
+  flex: 1;
+}
+@media (max-width: 768px) {
+  .custom-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .image-container,
+  .text-container {
+    flex: none;
+    width: 100%;
+  }
+}
+.demo-btn {
+  padding: 8px;
+  background-color: #0088ff;
+  border-radius: 50px;
+  color: whitesmoke;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: 0.7s ease;
+}
+.demo-btn:hover {
+  transform: scale(1.1);
 }
